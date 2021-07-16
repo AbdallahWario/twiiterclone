@@ -1,0 +1,12 @@
+.trends{
+    display: flex;
+    flex-direction: column;
+    margin: 15px;
+
+}
+.trendno{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+   
+}

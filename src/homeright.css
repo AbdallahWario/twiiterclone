@@ -1,0 +1,36 @@
+.right{
+    flex:0.3;
+    display: flex;
+    flex-direction: column;
+    margin: 5px 20px 0px 15px;
+}
+.trendswrapper{
+background-color: whitesmoke;
+margin-top: 30px;
+border-radius: 20px;
+}
+.topsearch{
+    display: flex;
+    width: 90%;
+    /* margin: 20px; */
+    align-items: center;
+    background-color: whitesmoke;
+    border-radius: 30px;
+  
+}
+.topsearchicon{
+    display: flex;
+    color:rgb(189, 186, 186);
+    margin-left: 20px ;
+    align-items: center;
+    font-size: 30px;
+}
+
+.topsearch>input{
+    border-radius: 30px;
+    outline: none;
+    border: none;
+    padding: 15px 30px;
+    background-color: whitesmoke;
+   
+}
