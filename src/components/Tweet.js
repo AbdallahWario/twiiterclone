@@ -25,10 +25,11 @@ const Tweet = () => {
                                  optio explicabo eligendi earum necessitatibus unde inventore
                                  quidem sed atque non est ipsam?
                             </p>
+                            <div className="contentmedia">
+                                 <img src="images/dp.jpg" alt="" srcset=""/>
+                              </div> 
                         </div>
-                        <div className="contentmedia">
-                            <img src="images/dp.jpg" alt="" srcset=""/>
-                        </div>
+                       
                         <div className="tweetfooter">
                                    <Icon className="footericon" Icon={BiComment} title="197"/>
                                    <Icon className="footericon"Icon={AiOutlineRetweet} title="20"/>

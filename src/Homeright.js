@@ -1,6 +1,7 @@
 import React from "react";
 import "./homeright.css";
 import { BiSearch } from 'react-icons/bi';
+import { FiSettings } from 'react-icons/fi';
 import Trends from "./components/Trends";
 
 const Homeright = () => {
@@ -13,7 +14,22 @@ const Homeright = () => {
       
     </div>
     <div className="trendswrapper">
+      <div className="locationwrapper">
+      <div className="trendnav">
+           <span className="location">Nairobi Trends</span>
+            <span className="settings"><FiSettings/></span>
+      </div>
+      </div>
+      
+          <Trends /> 
+          <Trends /> 
+          <Trends /> 
           <Trends />
+           <Trends />
+            <Trends />
+             <Trends />
+              <Trends /> 
+             <Trends />
     </div>
     
     </div>;

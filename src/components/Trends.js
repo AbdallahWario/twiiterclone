@@ -1,18 +1,25 @@
 import React from 'react'
 import './trends.css'
 import { RiMoreLine } from 'react-icons/ri';
-import Icon from './Icon'
 
-const Trends = () => {
+
+const Trends = ({no,title,count}) => {
     return (
-        <div className="trends">
-           <div className="trendno">
-               <p>No.1 Trending</p>
-              <span><RiMoreLine/></span>  
-           </div>
-            <div className="trendtitle"> <h4>UDA WINS</h4></div>
-            <div className="tweetcount"> <h6>13K</h6> </div>
-        </div>
+          <div className="trendwrapper">
+                <div className="trends">
+                 <span className="trendno"> 
+                      <span className="no">{no}. Trending</span>
+                      <RiMoreLine className="trendsmore"/>
+                </span>  
+               <div className="trendtitle"> <span>#{title}</span></div>
+               
+                <span className="tweetscount">{count} Tweets</span>
+               
+             </div>
+          </div>
+            
+      
+        
     )
 }
 
